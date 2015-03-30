@@ -1,8 +1,8 @@
 function pdex4
 
 m=0; %slab
-r=linspace(0,pi,100);
-t=linspace(0,200,100);
+r=linspace(0,1,100);
+t=linspace(0,400,100);
 sol=pdepe(m,@pdex4pde,@pdex4ic,@bc2fn,r,t);
 disp(sol);
 
