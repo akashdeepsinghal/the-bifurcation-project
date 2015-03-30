@@ -1,9 +1,11 @@
 function pdex4
-m = 0;
-r = [0 0.005 0.01 0.05 0.1 0.2 0.5 0.7 0.9 0.95 0.99 0.995 1];
-t = [0 0.005 0.01 0.05 0.1 0.5 1 1.5 2];
 
-sol = pdepe(m,@pdex4pde,@pdex4ic,@pdex4bc,r,t);
+m=0; %slab
+r=linspace(0,pi,100);
+t=linspace(0,200,100);
+sol=pdepe(m,@pdex4pde,@pdex4ic,@bc2fn,r,t);
+disp(sol);
+
 u1 = sol(:,:,1);
 u2 = sol(:,:,2);
 
