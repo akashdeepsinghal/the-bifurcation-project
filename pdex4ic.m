@@ -2,7 +2,7 @@ function u0 = pdex4ic(r);
 
 % Constants
 A = 2;
-B = 3.7; %NOT GIVEN | TO BE CHANGED
+B = 4; %NOT GIVEN | TO BE CHANGED
 
 c1 = 10;
 c2 = 10;

@@ -2,7 +2,7 @@ function [pl,ql,pr,qr]=bc2fn(xl,ul,xr,ur,t)
 
 % Constants
 A = 2;
-B = 3.7; %NOT GIVEN | TO BE CHANGED
+B = 4; %NOT GIVEN | TO BE CHANGED
 
 % Case 1:- Zero Flux Boundary Conditions (Neumann conditions)
 pl= [0;0];

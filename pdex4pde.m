@@ -10,9 +10,10 @@ L = 1;
 u1 = u(1);
 u2 = u(2);
 
-B = 3.7; %NOT GIVEN | TO BE CHANGED
+B = 4; %NOT GIVEN | TO BE CHANGED
 
-c = [1; 1];
+% c = [1; 1];
+c = [0; 0];
 f = [Dx; Dy] .* DuDr;
 
 % Rate equations describing the phenomenon
